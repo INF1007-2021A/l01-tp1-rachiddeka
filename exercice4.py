@@ -3,9 +3,10 @@ import math
 
 def calculerPosition(positionInitiale, vitesseInitiale, duree, vitesseFinale):
     # TODO faites les calculs intermediaires, vous pouvez initialiser des variables locales.
+    acceleration = (vitesseFinale - vitesseInitiale) / duree
 
     # TODO calculer la position finale, assigner la valeur à la variable "positionFinale"
-    positionFinale =
+    positionFinale = (vitesseInitiale * duree) + (0.5*acceleration*(duree**2))
 
     return positionFinale
 
