@@ -11,7 +11,8 @@ def resoudreEquation(a, b, c):
 
     if naPasDeSolution:
         # ces ligne de code seront executé si il y'a aucune racine
-        # TODO: afficher sur l'écran "Aucune racine"
+        # TODO: afficher sur l'écran
+        print("Aucune racine")
 
         # ne pas modifier
         return None
@@ -22,7 +23,7 @@ def resoudreEquation(a, b, c):
     if aUneSeuleSolution:
         # ces ligne de code seront executé si il y'a une seule racine
         # TODO: afficher sur l'écran "Une seule racine"
-
+        print("Une seule racine")
         # TODO: assigner a la variable x1 la valeur de la racine
         x1 = -b /(2 * a)
         # ne pas modifier
@@ -33,6 +34,7 @@ def resoudreEquation(a, b, c):
 
     if aDeuxSolutions:
         # TODO: afficher sur l'écran "Deux racines"
+        print("Deux racines")
 
         # TODO: calculer la prmiere racine, assigner la a "x1"
         x1 = (-b + math.sqrt(delta)) / (2 * a)
